@@ -1,0 +1,261 @@
+@charset"utf-8";
+/*---------------------------样式归零----------------------*/
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,
+dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,
+i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,
+strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video
+{margin:0;padding:0;border:0;outline:0;font-size:100%;background:0 0;font-weight:400;
+font-style:inherit;font-family:inherit;vertical-align:top}
+body{background:white;margin:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,hr,menu,nav,section
+{display:block}nav ul,ol,ul{list-style:none}:focus,a{outline:0}
+a{margin:0;font-size:100%;vertical-align:baseline;background:0 0;
+blr:expression(this.onFocus=this.blur())}a,ins{text-decoration:none}a, hr{padding:0}
+ins,mark{background-color:#ff9;color:#000}mark{font-style:italic;font-weight:700}
+blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}caption,td,th{text-align:left;font-weight:400}
+hr{height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0}input,select{vertical-align:middle;border:0}
+/*-------------------------归零样式END，于样式表最前面调用-------------------------*/
+
+/*-----------------自定义按钮样式，移动端不需要，PC端根据实际情况选择----------------*/
+.demo {width: 800px;height: 450px;font-size: 14px;position:relative;float:left}
+.demo a.control {
+    position:absolute;display: block;top: 50%;
+    margin-top: -78px;width: 76px;height: 112px;
+    cursor: pointer;z-index: 2;background: url(../image/banner/buttons.png) no-repeat}
+.demo a.prev {left: 0;background-position: 0 0}
+.demo a.next {right: 0;background-position: -76px 0}
+.demo a.prev:hover {background-position: 0 -112px}
+.demo a.next:hover {background-position: -76px -112px}
+/*----------------------------为保证最佳效果，建议设置如下样式------------------------*/
+.slider {display: none}
+#top{
+	position:relative;
+    width: 100%;
+    height: 30px;
+    background-color: #f9f9f9;
+}
+#topin{
+    position:absolute;
+    right: 200px;
+    font-size: 16px;
+    font-family: 华文楷体;
+    padding-top: 5px;
+}
+#newtopin{
+	position:absolute;
+	width:500px;
+	height:30px;
+	right:200px;
+}
+#login{
+	position:absolute;
+	width:170px;
+	height:30px;
+	right:150px;
+	 font-size: 16px;
+    font-family: 华文楷体;
+    padding-top: 5px;
+
+}
+#exitlogin{
+	position:absolute;
+	width:50px;
+	height:70px;
+	right:100px;
+	 font-size: 16px;
+    font-family: 华文楷体;
+    padding-top: 5px;
+}
+#shopcar{
+	position:absolute;
+	widht:50px;
+	height:30px;
+    right:50px;
+     font-size: 16px;
+    font-family: 华文楷体;
+    padding-top: 5px;
+   
+}
+
+.topbanner{ width:100%;height: 65px;background-image: url("../image/top-banner.jpg");
+    border: 5px solid red;
+}
+.bookbox img{
+    width: 200px;height: 250px;
+}
+#list{
+    width: 250px;
+    height:420px;
+    float: left;
+    padding-left: 50px;
+    padding-top:30px;
+    line-height: 30px;
+    background-color: rgba(238,63,73,0.7);
+}
+#list h1{
+    color: black;
+    font-size: 30px;
+    line-height:50px;
+}
+#list a{
+    color: white;
+    font-family: 幼圆;
+}
+#enptydiv img{
+	width:323px;
+	height:451px;
+	float:left;
+}
+#mainbox{
+	width:900px;
+	height:1100px;
+    text-align: center;
+    margin-left: 250px;
+    float: left;
+}
+#goods{
+	margin-top:50px;
+	width:300px;	
+	height:550px;
+	float:left;
+	box-shadow:0 4px 4px 0 rgba(0,0,0,0.1);
+}
+#goodsimg{
+	width:300px;
+	height:400px;
+	
+}
+#goodsimg img{
+	width:290px;
+	height:390px; 	
+	box-shadow:10px 5px 5px 10px rgba(0,0,0,0.1);
+}
+#add{
+	width:100px;
+	height:30px;
+	border-radius:10px;
+	background-color:#e8856c;
+}
+.goodsinfo{
+	width:300px;
+	height:100px;
+	line-height:30px;
+}
+#page{
+	margin-top:100px;
+	width:100%;
+	height:30px;
+	border:1px soild red;
+	background-color:#ff8c55;
+	float:left;
+}
+#firstpage a{
+	 margin-top:5px;
+	 float:left;
+	 width:50px;
+	 height:30px;
+	 margin-left:530px;
+	 color:#ffffff;
+	 
+}
+#justnow a{
+	 margin-top:5px;
+	 float:left;
+	 width:50px;
+	 height:30px;
+	 margin-left:30px;
+	 color:#ffffff;
+	
+}
+#currentpage{
+	 margin-top:5px;
+	 float:left;
+	 width:50px;
+	 height:30px;
+	 margin-left:20px;
+	 color:#ffffff;
+	
+}
+#next a{
+	 margin-top:5px;
+	 float:left;
+	 width:50px;
+	 height:30px;
+	 margin-left:20px;
+	 color:#ffffff;
+	
+}
+#lastpage a{
+	 margin-top:5px;
+	 float:left;
+	 width:50px;
+	 height:30px;
+	 margin-left:50px;
+	 color:#ffffff;
+	
+}
+	
+#title{
+    width: 100%;
+    height:40px;
+    font-family: 华文行楷;
+    font-size: 30px;
+    text-align: center;
+    background-color: #fe896b;
+    padding-top: 10px;
+    float: left;
+}
+#foot{
+    width:100%;
+    height:200px;
+    background-color: #333333;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+}
+#foot-left{
+    margin-top: 20px;
+    width:40%;
+    height:150px;
+    margin-left:200px;
+    float: left;
+}
+.buttom{
+    margin-top:20px;
+    width:30%;
+    height:100%;
+    text-align: center;
+    float: left;
+}
+.buttom a{
+    color: white;
+    line-height: 30px;
+}
+#foot-right{
+    width:20%;
+    padding-top: 20px;
+    height:150px;
+    position: absolute;
+    right: 100px;
+}
+#foot-right a{
+    color: white;
+    line-height: 30px;
+    margin-top: 30px;
+}
+#last{
+    width: 100%;
+    height:30px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+#last{
+    width: 100%;
+    height:50px;
+    color: white;
+    font-size:10px;
+   padding-top: 10px;
+}

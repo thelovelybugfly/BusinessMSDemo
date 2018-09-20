@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+body{
+	background-color:#ffcaca;
+}
+#maininfo{
+	position:relative;
+	top:100px;
+	left:300px;
+	width:800px;
+	height:600px;
+	background-color:white;
+	float:left;
+	border-radius:50px;
+}
+#img{
+	width:500px;
+	height:600px;
+	float:left;
+	border-radius:50px;
+	
+}
+#img img{
+	width:500px;
+	height:600px;
+	float:left;
+	border-radius:50px;
+	
+}
+.goodsms{
+	width:250px;
+	height:50px;
+	float:left;
+	margin-top:50px;
+	font-size:20px;
+}
+.btn{
+	width:100px;
+	height:40px;
+	border-radius:15px;
+	background-color:#ff6060;
+	float:left;
+	margin-top:80px;
+	margin-right:50px;
+}
+

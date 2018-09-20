@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	background-image: url("../image/loginbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#out{
+	width:400px;
+	height: 360px;
+	position: fixed;
+	top:200px;
+	left:530px;
+	padding-top: 20px;
+	background-color: rgba(220, 176, 103, 0.5);
+	border-radius:30px;
+	border:2px solid white;
+	text-align: center;
+	line-height: 50px;
+	color:white;
+	font-weight: lighter;
+}
+input {
+	background-color: transparent;
+	height: 25px;
+	border-radius: 20px;
+}
+input::-webkit-input-placeholder {
+	color:black;
+	-webkit-transition: color.5s;
+}
+input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
+	color: #c2c2c2;
+	-webkit-transition: color.5s;
+}
+h1{
+	margin-top: 20px;
+	color: white;
+	font-size: 80px;
+	font-family: 华文行楷;
+	text-align: center;
+}
+.button{
+	width: 80px;
+	height: 40px;
+	background-color: #d88b53;
+	border-radius:10px;
+	margin-top:10px; 
+}
+.input input{
+	width: 300px;
+	margin-top:20px;
+	text-align: center;
+	height:40px
+}
+.codemes{
+	width:200px;
+	height:40px;
+	margin-top:20px;
+	border:2px solid white;
+	border-radius:30px;
+	margin-left:100px;
+}
+#img{
+	width:200px;
+	height:40px;
+	border-radius:30px;
+}
+h2{
+	font-size: 20px;
+	font-family: 微软雅黑;
+	color: black;
+	padding:0px;
+	margin: 0 auto;
+}
